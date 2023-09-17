@@ -19,7 +19,7 @@
       <!-- 右寄せ -->
       <v-row justify="center" no-gutters>
         <v-col class="text-center mt-4" cols="12">
-          <nuxt-link to="/" style="margin-right: 3em">
+          <nuxt-link to="/">
             <v-btn color="primary"> Homeへ </v-btn>
           </nuxt-link>
         </v-col>
