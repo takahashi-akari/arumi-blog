@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   app : {
-    baseURL: process.env.BASE_URL || ''
+    baseURL: '/arumi-blog/'
   },
 })
