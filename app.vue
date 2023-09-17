@@ -24,7 +24,10 @@
           </nuxt-link>
         </v-col>
         <v-col class="text-center mt-4" cols="12">
-          Copyright (c) {{ new Date().getFullYear() }} —
+          当ブログ記事は、AIによって生成されたコンテンツを含みます。
+        </v-col>
+        <v-col class="text-center mt-4" cols="12">
+          {{ new Date().getFullYear() }} —
           <strong>Akari Takahashi</strong>
         </v-col>
       </v-row>
