@@ -3,7 +3,7 @@ import vuetify from 'vite-plugin-vuetify'
 export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   app : {
-    baseURL: '' //'/arumi-blog/'
+    baseURL: '/arumi-blog/'
   },
   build: {
     transpile: ['vuetify'],
