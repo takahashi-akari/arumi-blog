@@ -27,27 +27,5 @@ export default {
   async fetch() {
     this.list = await this.$content("blog").fetch();
   },
-  head() {
-    return {
-      title: "Arumi Blog - Arumiブログ",
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: "Arumiブログは、さまざまな情報を発信するブログです。",
-        },
-        {
-          hid: "og:url",
-          property: "og:url",
-          content: "https://takahashi-akari.github.io/arumi-blog/",
-        }, //絶対パス
-        {
-          hid: "og:title",
-          property: "og:title",
-          content: "Arumi Blog - Arumiブログ",
-        },
-      ],
-    };
-  },
 };
 </script>

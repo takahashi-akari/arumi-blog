@@ -31,3 +31,14 @@
     </v-footer>
   </v-app>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Arumi Blog - Arumiブログ",
+  meta: [
+    { property: 'og:url', content: 'https://takahashi-akari.github.io/arumi-blog/' },
+    { property: 'og:title', content: "Arumi Blog - Arumiブログ"},
+    { property: 'og:description', content: "Arumiブログでは、テクノロジーなど多様なトピックに対する深い洞察を提供しています。" }
+  ],
+});
+</script>
