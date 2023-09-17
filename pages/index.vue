@@ -26,6 +26,10 @@ export default {
   // list
   async fetch() {
     this.list = await this.$content("blog").fetch();
+    // createdAtでソート
+    this.list = this.list.sort((a, b) => {
+      return a.createdAt < b.createdAt ? 1 : -1;
+    });
   },
 };
 </script>
